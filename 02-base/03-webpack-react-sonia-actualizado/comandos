@@ -1,0 +1,28 @@
+
+
+npm init -y
+npm install webpack --save-dev
+npm install webpack-cli --save-dev
+npm install react react-dom --save-dev
+nano .gitignore  --> node_modules
+npm install @babel/cli @babel/core @babel/preset-env  --save-dev
+npm install babel-loader --save-dev
+npm install html-webpack-plugin --save-dev
+npm install typescript --save-dev
+npm install webpack-dev-server --save-dev
+npm install style-loader --save-dev
+npm install npm-run-all --save-dev
+npm install rimraf --save-dev
+npm install html-webpack-plugin --save-dev
+npm install html-loader --save-dev
+npm install @babel/preset-typescript --save-dev
+npm install css-loader --save-dev
+
+ 
+
+
+copiamos: webpack.config.js .babelrc  tsconfig.json y carpeta src
+
+
+npm run build
+npm start
